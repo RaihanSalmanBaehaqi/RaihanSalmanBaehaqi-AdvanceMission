@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-container {
+    display: flex;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+.search-bar {
+    margin-left: 20px;
+}
+
+header .search-bar input {
+    padding: 0.5rem;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+
+header .profile {
+    display: flex;
+    align-items: center;
+}
+
+header .profile button {
+    margin-right: 1rem;
+    background-color: #005555;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+header .profile .user {
+    display: flex;
+    align-items: center;
+}
+
+header .profile .user img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+main {
+    display: flex;
+    padding: 2rem;
+}
+
+.main-content {
+    flex: 2;
+    flex-direction: column;
+}
+
+.sidebar {
+    flex: 1;
+    margin-left: 2rem;
+}
+
+.topic-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.topic-buttons button {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 24px;
+    background-color: #E1E6EF;
+    cursor: pointer;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+}
+
+article {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+}
+
+article img {
+    width: 225px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.article-content {
+    padding: 1rem;
+}
+
+.article-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.article-content p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.penulis {
+    display: flex;
+}
+
+.penulis img {
+    width: 24px;
+    height: 24px;
+    border-radius: 1000px;
+    align-self: center;
+}
+
+.penulis p{
+    align-self: center;
+    margin-left: 10px;
+}
+
+.article-content button {
+    clear: both;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 24px;
+    background-color: #E1E6EF;
+    cursor: pointer;
+}
+
+.sidebar h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.popular-articles ul,
+.recommended-authors ul {
+    list-style: none;
+}
+
+.popular-articles li,
+.recommended-authors li {
+    background-color:white;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    margin-bottom: 1rem;
+}
+
+.ranking {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.ranking p{
+    margin-left: 10px;
+}
+
+.recommended-profile {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.recommended-profile span {
+    margin-left: 10px;
+}
+
+.recommended-profile img {
+    width: 32px;
+    height: 32px;
+    border-radius: 1000px;
+}
+
+.button-profile {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.button-profile button {
+    background-color: white;
+    border: 2px solid #008080;
+    border-radius: 30px;
+    color: #008080;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.popular-articles li h4 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.popular-articles li p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.recommended-authors li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    color: #6C717A;
+    text-align: center;
+    padding: 1rem;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    margin-top: 2rem;
+}

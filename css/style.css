@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.left {
+    flex: 1;
+    background-color: #005555;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+.illustration img {
+    width: 450px;
+    height: 550px;
+}
+
+.right {
+    flex: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    padding: 30px;
+    margin-right: 20px;
+}
+
+.form-container .actions>a {
+    font-size: 14px;
+
+}
+.login-container h2 {
+    margin-bottom: 10px;
+    color: #005555;
+}
+
+.login-container p {
+    margin-bottom: 20px;
+    color: #6c757d;
+}
+
+.login-container label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    color: #4A505C;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.login-container .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.login-container .actions a {
+    color: #005555;
+    text-decoration: none;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #005555;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.login-container .divider {
+    margin: 15px 0;
+    color: #6c757d;
+}
+
+.login-container .google-login {
+    background-color: white;
+    color: #757575;
+    border: 1px solid #ced4da;
+}
+
+.login-container .google-login:hover {
+    background-color: #f8f9fa;
+}
+
+button:hover {
+    background-color: #043A2E;
+}
+
+.bi-google {
+    margin-right: 20px;
+}
+
+footer{
+    color: #6C717A;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    border-top: 1px solid;
+    border-color: #ddd;
+}
